@@ -8,8 +8,8 @@ const cars = [
   { make: "Nissan", model: "Altima", year: 2012 }
 ];
 
-cars.sort((a, b) => {
-    return a.year - b.year;
+cars.sort((year1, year2) => {
+    return a.year1 - b.year2;
 })
 console.log(cars)
 
